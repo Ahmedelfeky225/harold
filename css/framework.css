@@ -1,0 +1,299 @@
+:root {
+--bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+     --bs-gray-300:#6c757d2d;
+     --c-pink-300:#d633842c;
+     --bg-yellow-300:#ffc10736;
+     --bg-green-300:#1987543b;
+     --bg-purple-300:#6e42c13b;
+     --c-grey:#777;
+     --main-color:#1c2f50;
+}
+.cr-pon{
+    cursor: pointer;
+}
+.full-w{
+    width: 100%;
+}
+/*start color*/
+.c-teal{
+    color: var(--bs-teal);
+}
+.bs-teal{
+    background-color: var(--bs-teal);
+}
+.main-color{
+    color:#1c2f50;
+}
+.bg-main-c{
+    background-color:#1c2f50;
+}
+.c-red{
+    color: var(--bs-red);
+}
+.c-yellow{
+    color: var(--bs-yellow);
+}
+.bg-gray{
+    background-color: var(--bs-gray-300);
+}
+.c-blue{
+    color: var(--bs-indigo);
+}
+.c-pink{
+    color: var(--bs-pink);
+}
+.bg-pink-300{
+    background-color:var(--c-pink-300) ;
+}
+.bg-yellow-300{
+background-color: var(--bg-yellow-300);
+}
+.c-yellow{
+    color: var(--bs-yellow);
+}
+.bg-green-300{
+    background-color: var(--bg-green-300);
+}
+.c-green{
+    color: #198754;
+}
+.bg-purple-300{
+background-color: var(--bg-purple-300);
+}
+.c-purple{
+    color: #6f42c1;
+}
+.bg-grey{
+    background-color:#777;
+}
+.c-grey{
+    color: var(--c-grey);
+}
+.p-c{
+    color: var(--bs-red);
+    font-weight: bold;
+}
+/*End color*/
+/*d-flex*/
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.align-c{
+align-items: center;
+}
+.space-btw{
+    justify-content: space-between;
+}
+.justify-c{
+    justify-content: center;
+}
+.flex-g{
+flex:1;
+}
+.flex-w{
+    flex-wrap: wrap;
+}
+.d-grid{
+    display: grid;
+}
+.gap-40{
+    gap: 40px;
+}
+.p-relative{
+    position: relative;
+}
+/*d-flex*/
+/*margin + padding*/
+.m-auto{
+    margin: auto;
+}
+.m-t-20{
+    margin-top: 20px;
+}
+.m-t-70{
+    margin-top: 70px;
+}
+.m-t-100{
+    margin-top: 80px;
+}
+.m-b-100{
+    margin-bottom: 200px;
+}
+.m-b-20{
+    margin-bottom: 20px;
+}
+.m-l-5{
+    margin-left: 5px;
+}
+.m-l-10{
+    margin-left: 10px;
+}
+.m-l-15{
+    margin-left: 15px;
+}
+.margin-l{
+    margin-left: 20px;
+}
+.m-0{
+    margin: 0;
+}
+.m-b-5{
+    margin-bottom: 5px;
+}
+.m-b-10{
+    margin-bottom: 10px;
+}
+.m-b-30{
+    margin-bottom: 30px;
+}
+.m-b-60{
+    margin-bottom: 60px;
+}
+.margin-t-b-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.m-l-30{
+margin-left: 30px;
+}
+.pad-10{
+    padding: 10px;
+}
+.pad-15{
+    padding: 15px;
+}
+.pad-20{
+    padding: 20px;
+}
+.pad-t-30{
+    padding-top: 30px;
+}
+.pad-t-b-30{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+/*margin + padding*/
+/*color*/
+.bg-white{
+    background-color: white;
+}
+.c-white{
+color: white;
+}
+.c-grey{
+    color: rgb(156, 155, 155);
+}
+.line-h{
+line-height: 1.8;
+}
+.ov-h{
+    overflow: hidden;
+}
+/*color*/
+/*border*/
+.b-r-10{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.b-r-20{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.b-r-6{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.border-top{
+    border-top: 1px solid #ccc;
+}
+.border-bottom{
+    border-bottom:1px solid #ccc;
+}
+.border-b-grey{
+    border-bottom: 1px solid #777;
+}
+/*border*/
+/*font*/
+.font-w-500{
+    font-weight: 500;
+}
+.font-s-15{
+font-size: 15px;
+}
+.font-s-14{
+font-size: 14px;
+}
+.font-s-13{
+font-size: 13px;
+}
+.font-s-12{
+font-size: 12px;
+}
+.font-s-18{
+font-size: 18px;
+}
+.font-s-20{
+font-size: 20px;
+}
+.font-s-25{
+    font-size: 25px;
+}
+.font-s-30{
+    font-size: 30px;
+}
+.font-s-35{
+    font-size: 35px;
+}
+.font-s-50{
+    font-size: 50px;
+}
+.font-w{
+    font-weight: bold;
+}
+.font-n{
+    font-weight: normal;
+}
+.f-w{
+    font-weight: 600;
+}
+.text-c{
+    text-align: center;
+}
+.text-deco-show{
+    text-decoration: underline;
+}
+/*font*/
+/*Start Component*/
+.section-c-pad{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f4f6fb;
+}
+.section-pad{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+/*End Component*/
